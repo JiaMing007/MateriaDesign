@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:padding="10dp"
+    android:background="?attr/colorPrimary">
+    <com.itxiaoming.materialdesign.View.CircleImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/icon_image"
+        android:src="@mipmap/image"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Jiaming Xiao"
+        android:textColor="#FFF"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jiaming@163.com"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+        android:layout_above="@+id/tv_name"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
