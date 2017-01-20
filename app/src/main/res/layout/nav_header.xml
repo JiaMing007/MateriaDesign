@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="180dp"
     android:padding="10dp"
-    android:background="?attr/colorPrimary">
+    android:background="@drawable/ic_nav_bg_drawerlayout"
+    android:fitsSystemWindows="true">
     <com.itxiaoming.materialdesign.View.CircleImageView
         android:layout_width="70dp"
         android:layout_height="70dp"
